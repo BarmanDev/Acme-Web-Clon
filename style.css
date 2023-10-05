@@ -17,15 +17,20 @@
 }
 .welcome h1, p{
     color: #ffffff;
+
     
 }
 
 .welcome h1{
     font-size: 3rem;
+    padding: 1rem;
 }
 
 .welcome p{
     font-size: 1.5rem;    
+    margin: 1rem 15rem;
+    text-align: center;
+
 }
 
 .welcome {
@@ -37,12 +42,12 @@
 
 .welcome button{
     color:#ffffff;
-  cursor: pointer;
-  font-size: 18px;
-  height: 4rem;
-  width: 10rem;
-  background-color: #333232;
-  border-color: #ababab;
+    cursor: pointer;
+    font-size: 18px;
+    height: 4rem;
+    width: 10rem;
+    background-color: #333232;
+    border-color: #ababab;
 
 
 }
