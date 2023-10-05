@@ -2,6 +2,7 @@
 * {
         margin: 0;
         padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
  }
 
 .bg-img{
@@ -23,7 +24,7 @@
     font-size: 3rem;
 }
 
-.welcome  p{
+.welcome p{
     font-size: 1.5rem;    
 }
 
@@ -51,5 +52,40 @@
     background-color: #ffffff;
 
 }
+
+
+.aplication-text-left{
+    margin-left: 30rem;
+    padding-right: 2rem;
+
+}
+
+.aplication-text-right{
+    margin-right: 30rem;
+}
+
+.aplication-text p{
+    color:#000000;
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.aplication{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 1rem;
+
+}
+
+.web-aplication-h2{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+
+
 
 
