@@ -1,5 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
 }
 
 .card {
@@ -77,26 +79,18 @@ p  {
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
 }
 
-* {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
- }
-
 .bg-img{
-    background-image: url(./img/code.png);
+    background-image: url(./img/header-bbq.png);
     background-size: cover;
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.116);
 
 }
-.welcome h1, p{
-    color: #ffffff;
-
-    
+.welcome h1{
+    color: #ffffff; 
 }
 
 .welcome h1{
@@ -133,18 +127,16 @@ p  {
 .welcome button:hover{
     color:#000000;
     background-color: #ffffff;
-
 }
 
 
 .aplication-text-left{
-    margin-left: 30rem;
+    margin-left: 20rem;
     padding-right: 2rem;
-
 }
 
 .aplication-text-right{
-    margin-right: 30rem;
+    margin-right: 20rem;
 }
 
 .aplication-text p{
@@ -158,7 +150,7 @@ p  {
 .aplication{
     display: flex;
     justify-content:flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -168,7 +160,43 @@ p  {
     padding: 3rem 0;
 }
 
+.text-header{
+    color:#ffffff;
+}
 
 
+.contact-about {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container, .about-container {
+    width: 50%;
+    display: flex;
+}
+
+.contact {
+    color:white;
+    background-color: #2790d5;
+    padding: 10rem; 
+    text-align: center;
+}
+
+.about {
+    color:white;
+    background-color: #323233;
+    padding: 10rem; 
+    text-align: center;
+}
+
+
+.contact h2, .about h2{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.contact p, .about p{
+    font-size: 1.5rem;
+}
 
 
