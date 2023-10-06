@@ -76,3 +76,99 @@ p  {
     font-size: 1.2em;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
 }
+
+* {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+ }
+
+.bg-img{
+    background-image: url(./img/code.png);
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.116);
+
+}
+.welcome h1 {
+    color: #ffffff;
+
+    
+}
+
+.welcome h1{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.welcome p{
+    font-size: 1.5rem;    
+    margin: 1rem 15rem;
+    text-align: center;
+
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome button{
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    height: 4rem;
+    width: 10rem;
+    background-color: #333232;
+    border-color: #ababab;
+
+
+}
+
+.welcome button:hover{
+    color:#000000;
+    background-color: #ffffff;
+
+}
+
+
+.aplication-text-left{
+    margin-left: 30rem;
+    padding-right: 2rem;
+
+}
+
+.aplication-text-right{
+    margin-right: 30rem;
+}
+
+.aplication-text p{
+    color:#333;
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.aplication{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 1rem;
+
+}
+
+.web-aplication-h2{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+
+
+
+
