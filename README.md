@@ -22,7 +22,7 @@ Proyecto HTML CSS propuesto por la Bootcamp Factoría F5.
 - Imágenes.
 - Párrafos.
 - Uso de cards.
-- 
+
 
 ### CSS
 - Reseteo de estilos.
