@@ -3,7 +3,7 @@
 Proyecto HTML CSS propuesto por la Bootcamp Factoría F5.
 
 ## Resultado de la web :heavy_check_mark:
-![Resultado](./img/code.png)
+![Resultado](./img/example.gif)
 
 ## Objetivos :dart:
 - Crear una web que replique la siguiente web arrow_right: [Visual Studio Code](https://jolly-kalam-23776e.netlify.app/cssgridresponsive/)
